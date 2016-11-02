@@ -40,12 +40,22 @@ Here is what each file does:
   + Students can change the LED matrix in the code to design their own maze layout.
   + There is also a bug where if there are two walls that look like this:
    
-             **
-             **
-               **
-               **
-   Where each four stars are a wall, pointers can slip between them. The solution 
+             ***
+             ***
+                ***
+                ***
+   Where each group stars are a wall; pointers can slip between them. The solution 
    to the bug it commented out. It is to the disgression of the instructor to 
    use that bug as they wish. 
 + temp.py
+  + This will print the temperature in the room (in Celcius) as well as move a 
+   "bar" that will show up on the LED matrix. 
+  + The program takes the initial temperature and uses it to initialize the "bar" 
+   on the LED matrx, so that it starts at 3 bars and can always be able to move
+   up or down, depending on the relative temperature (relative to the initial
+   temperature). 
 + text.py
+  + This one is the simplist. 
+  + This is one line that has a function that writes a message onto the screen 
+   by scrolling it from left to right. There are several values students can 
+   change. 
