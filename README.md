@@ -29,3 +29,23 @@ Here is what each file does
 ###sense_hat
 
 Here is what each file does:
++ gyro_data.py
+  + This will print out the gyroscopic raw data (voltage between -1,1) and print 
+   it in X,Y,Z components. 
++ gyro_move.py
+  + This will make a "point" or "cursor" on the LED matrix which will have motion 
+   logic that uses the gyro_data function to operate. 
++ gyro_maze.py
+  + This will combine the last two and make a maze game. 
+  + Students can change the LED matrix in the code to design their own maze layout.
+  + There is also a bug where if there are two walls that look like this:
+   
+             **
+             **
+               **
+               **
+   Where each four stars are a wall, pointers can slip between them. The solution 
+   to the bug it commented out. It is to the disgression of the instructor to 
+   use that bug as they wish. 
++ temp.py
++ text.py
