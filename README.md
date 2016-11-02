@@ -20,8 +20,8 @@ Here is what each file does
   + This will turn the LED on and off with time input and voltage output
 + Photoresistor.py
   + This will print the amount of time it takes for a capacitor to charge.
- The capacitor is in series with the capacitor, so it will take a different
- amount of time to charge according to the resistance of the photoresistor. 
+   The capacitor is in series with the capacitor, so it will take a different
+   amount of time to charge according to the resistance of the photoresistor. 
 + LED_Photoresistor.py
   + This will turn the LED on and off using the Photoresistor 
 
