@@ -16,11 +16,11 @@ create functional programs.
 ###LED
 
 Here is what each file does 
-+LED.py
++ LED.py
   + This will turn the LED on and off with time input and voltage output
-+Photoresistor.py
++ Photoresistor.py
   + This will print the amount of time it takes for a capacitor to charge
-+LED_Photoresistor.py
++ LED_Photoresistor.py
   + This will turn the LED on and off using the Photoresistor 
 
 
