@@ -1,0 +1,23 @@
+import nxppy
+
+def PrintFunk():
+	ls=[]
+	for x in xrange(10):
+		ls.append(mifare.read_block(x))
+		ls.append('/')
+	y = ''.join(ls)
+	return y
+		
+
+mifare = nxppy.Mifare()
+
+
+
+while 1:
+	try:
+		uid = mifare.select()
+		print uid
+		time	
+		print (PrintFunk())
+	except nxppy.SelectError:
+		pass
