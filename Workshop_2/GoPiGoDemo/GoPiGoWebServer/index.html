@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://materializecss.com/templates/starter-template/preview.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <title id="title">Sparky Web Panel</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="./style.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Sparky Web Panel</a>
+      <ul class="right hide-on-med-and-down">
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br>
+      <h2 id="robo" class="header center orange-text">Drive Sparky</h2>
+      <div id="robotstatus"><h4 class="center red-text">Sparky is Offline</h4></div>
+
+      <div class="row center">
+        <h5>Drive Using W,A,S,D</h5>
+        <h5 class="header col s12 light" id="command">Command Sent: Stop</h5>
+        <h5 class="header col s12 light" id="status">Socket Status: Disconnected</h5>
+      <a class="waves-effect waves-light btn" >Toggle Left Led</a>
+      <a class="waves-effect waves-light btn" onclick="changeName()">Change Name</a>
+      <a class="waves-effect waves-light btn" >Toggle Right Led</a><br>
+	<img src="gopigo.jpg" height="350" width="350">
+      </div>
+      <br><br>
+
+    </div>
+    </div>
+
+  <!--  Scripts-->
+  <script src="./jquery-2.1.1.min.js"></script>
+  <script src="./materialize.js"></script>
+  <script src="./init.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="./app.js"></script>
+
+
+<div class="hiddendiv common"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>
