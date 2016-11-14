@@ -1,3 +1,6 @@
+# Language: Python
+# File name: NFC_Write_Message.py
+# Description: This is used to write a message to a card
 import nxppy
 import time
 import sys
@@ -6,7 +9,7 @@ def WriteMessage(msg):
 	msgl=[]
 	msgl.append(msg)
 	if len(msg)%4 != 0:
-		
+
 		o = len(msg)%4
 		for g in xrange(5-o):
 			msgl.append(' ')
@@ -44,6 +47,3 @@ while 1:
 	break
 
 WriteMessage(Message)
-
-
-

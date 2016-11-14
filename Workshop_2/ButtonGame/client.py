@@ -1,3 +1,6 @@
+# Language: Python
+# File name: client.py
+# Description: This is used to commect your button to the client
 import RPi.GPIO as GPIO
 import time
 import datetime

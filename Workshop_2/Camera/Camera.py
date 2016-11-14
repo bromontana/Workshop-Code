@@ -1,3 +1,6 @@
+# Language: Python
+# File name: Camera.py
+# Description: Takes an image and converts it into ASCII
 from PIL import Image
 import picamera
 
@@ -62,6 +65,3 @@ if __name__=='__main__':
 
     image_file_path = "image.jpg"
     handle_image_conversion(image_file_path)
-
-
-

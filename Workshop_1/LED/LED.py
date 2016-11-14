@@ -1,4 +1,4 @@
-)# Language: Python
+# Language: Python
 # File name: LED.py
 # Description: This will toggle an LED for 1 second then turn it off
 

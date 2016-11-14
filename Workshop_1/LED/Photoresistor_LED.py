@@ -33,16 +33,16 @@ def RCtime (PiPin):
 while (True):
   photo_time = RCtime(4)
   LED_state = False
-  if (photo_time <= 600 and state == False):
+  if (photo_time >= 600 and state == False):
     # Prints "LED on" before the LED turns on
-    print “LED on”
+    print "LED on"
 
     # Turns on the LED
     GPIO.output(18,GPIO.HIGH)
 
-  elif (photo_time >= 600 and state == True):
+  elif (photo_time < 600):
     # Prints "LED off" before turning the LED off
-    print “LED off”
+    print "LED off"
 
     # Turns off the LED
     GPIO.output(18,GPIO.LOW)

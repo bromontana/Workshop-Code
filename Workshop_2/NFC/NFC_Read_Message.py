@@ -1,3 +1,6 @@
+# Language: Python
+# File name: NFC_Read_Message.py
+# Description: This is used to read a message from a card
 import nxppy
 import time
 
@@ -11,9 +14,9 @@ def ReadMessage():
 			ls.append(z)
 		except nxppy.ReadError:
 			pass
-		
+
 	y = ''.join(ls)
-	print y	
+	print y
 
 mifare = nxppy.Mifare()
 
@@ -26,5 +29,3 @@ while 1:
 
 
 ReadMessage()
-
-
